@@ -9,7 +9,7 @@ public class GameRunner
       
       while (gameRunning = true) 
         {
-          System.out.println("your game goes here")
+          System.out.println("your game goes here");
         }
     }
  }
