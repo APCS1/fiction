@@ -10,6 +10,7 @@ public class Game
     public game()
     {
         int playIn=0;
+        // playIn = UserInput.getInt();
         boolean isAlive = true;
         AdventureBegin AdventureBeginObject = new AdventureBegin();
         AdventureBegin.adventureBegin();
