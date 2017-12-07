@@ -5,9 +5,9 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class AdventureBegin
+public class GameBegin
 {
-    public static void adventureBegin()
+    public static void gameBegin()
  
     {
         System.out.println("Congradulations! you're a successful Highschool basketball prospect being scouted by multiple colleges");
