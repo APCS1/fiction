@@ -10,8 +10,8 @@ public class Game
         * Again real sorry
         */
         
-        AdventureBegin AdventureBeginObject = new AdventureBegin();
-        AdventureBegin.adventureBegin();
+        GameBegin GameBeginObject = new GameBegin();
+        GameBegin.gameBegin();
         int playIn = 0;
         int ending = 3;
         
