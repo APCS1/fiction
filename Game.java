@@ -46,6 +46,7 @@ public class Game
         
         //Start of scene 2
         
+        System.out.println
         //Start of scene 3
         
         //Start of ending
