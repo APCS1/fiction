@@ -1,1 +1,15 @@
-//test
+import java.util.*;
+
+public class GameRunner
+{
+    public static void main(String args[])
+    {
+      Scanner in = new Scanner (System.in);
+      boolean gameRunning = true;
+      
+      while (gameRunning = true) 
+        {
+          System.out.println("your game goes here")
+        }
+    }
+ }
