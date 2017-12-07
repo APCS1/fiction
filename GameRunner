@@ -13,9 +13,9 @@ public class GameRunner
           System.out.println("your game goes here");
           Game.game();
           
-          System.out.println("Would you like to play again?");
+          System.out.println("Would you like to play again? (Type y/n)");
           userInput = UserInput.getString();
-          if (userInput=="no")
+          if (userInput=="n")
           {
               gameRunning = false;
             } 
