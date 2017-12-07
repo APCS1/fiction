@@ -1,17 +1,22 @@
 public class Game
-{
-    int playIn = 0;
-    int ending = 3;
-    
+{    
     public static void game()
     {
+        /** I'm sorry
+        * but I don't have the time to get the variables to work between methods
+        * I have work from other classes to do tonight as well
+        * Just make it into a single method and comment the seperation
+        * Already formated it, so just place the story as if it were in diffrent methods between the comments
+        * Again real sorry
+        */
+        
         AdventureBegin AdventureBeginObject = new AdventureBegin();
         AdventureBegin.adventureBegin();
-        scene1();
-    }  
-    
-    public static void scene1()
-    {
+        int playIn = 0;
+        int ending = 3;
+        
+        //Start of scene 1
+        
         System.out.println("Congratulations on selecting your University.");
         System.out.println("Upon entering your college they generously give you a starting position.");
         System.out.println("Couple months has passed you have gotten comfortable of how things operate.");
@@ -37,6 +42,12 @@ public class Game
             System.out.println("Resulting in a turnover.");
             ending --;
         }
+        
+        //Start of scene 2
+        
+        //Start of scene 3
+        
+        //Start of ending
               
     }
 }
