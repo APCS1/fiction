@@ -7,6 +7,7 @@ public class Game
         * I have work from other classes to do tonight as well
         * Just make it into a single method and comment the seperation
         * Already formated it, so just place the story as if it were in diffrent methods between the comments
+        * Also, read the read me txt file. I left a message there.
         * Again real sorry
         */
         
