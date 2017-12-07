@@ -3,6 +3,7 @@ import java.util.*;
 /**
  * Convenience class for getting input from a user
  */
+ 
 public class UserInput   
 {
     public static String getString() {
@@ -12,4 +13,10 @@ public class UserInput
     
    }
    
+    public static int getInt() {
+       
+       Scanner in =  new Scanner(System.in);
+       return in.nextInt();
+       
+    }
 }
