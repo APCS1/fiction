@@ -8,8 +8,10 @@ public class GameRunner
       boolean gameRunning = true;
       String userInput = "";
       while (gameRunning == true) 
+      Game GameObject = new Game();
         {
           System.out.println("your game goes here");
+          Game.game();
           
           System.out.println("Would you like to play again?");
           userInput = UserInput.getString();
