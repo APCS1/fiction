@@ -1,7 +1,7 @@
 
 PROJECT TITLE: InteractiveFiction
 PURPOSE OF PROJECT: To complete a Computer Science project
-VERSION or DATE: 0.3.2 (12-7-2017)
+VERSION or DATE: 0.3.5 (12-7-2017)
 HOW TO START THIS PROJECT: Run GameRunner
 AUTHORS: APCS1
 USER INSTRUCTIONS: Play the game
