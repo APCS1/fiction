@@ -71,7 +71,7 @@ public class Game
         System.out.println("There's 5 seconds on the clock and you have the chance to win it for your team.");
         System.out.println("You have the ball only to be thinking about the game being on the line.");
         
-        System.outprintln("What are your final choices?");
+        System.out.println("What are your final choices?");
         
         System.out.println("[1] Shoot the game winner from half court at where you currently stand with the ball.");
         System.out.println("[2] Move up a litte bit and try to shoot deep 3 over defender.");
