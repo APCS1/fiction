@@ -89,17 +89,19 @@ public class Game
            case 1: 
              System.out.println("You shoot the half court shot and you end up air balling.");
              ending--;
+             break;
                
            case 2:
              System.out.println("You move up a bit and shoot your deep 3 and you end up making it!");
-                
+             break;
            case 3:
              System.out.println("You pass the ball to your shooting guard only for him to miss his shot.");
              ending--;
-                
+             break;
            case 4:
              System.out.println("You dribble and actually make your defender slip, but time runs out.");
              ending--;
+             break;
         }
         
         //Start of ending
