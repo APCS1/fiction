@@ -16,6 +16,7 @@ public class GameBegin
         System.out.println("[3] UCLA");
         System.out.println("[4] University of North Carolina");
         System.out.println("[5] University of Kansas");
+         System.out.println();
         
         playIn = UserInput.getInt();
         
