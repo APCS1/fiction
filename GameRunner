@@ -7,14 +7,14 @@ public class GameRunner
       Scanner in = new Scanner (System.in);
       boolean gameRunning = true;
       String userInput = "";
-      while (gameRunning == true) 
+      while (gameRunning == true)
         {
           System.out.println("your game goes here");
-          Game.game();
+          //Game.game();
           
           System.out.println("Would you like to play again? (Type y/n)");
           userInput = UserInput.getString();
-          if (userInput=="n")
+          if (userInput.equals("n")==true)
           {
               gameRunning = false;
             } 
