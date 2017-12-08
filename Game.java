@@ -98,20 +98,21 @@ public class Game
         }
         
         //Start of ending
-        if ending = 0 
+        if (ending == 0) 
+        {
             System.out.println("Your performance in this game has set the tone for the rest of your season.");
             System.out.println("You do not exceed at any aspect of the game and continue to play as a casual individual.");
-            System.out.println("It is now draft day and you were the last round pick being drafted to the Golden State Warriors.")
-            System.out.println("Upon joining this team, you recieve no playing time and go unoticed")
-            System.out.println("eventually leading to your removal from the league.") 
-        else if ending > 0 
+            System.out.println("It is now draft day and you were the last round pick being drafted to the Golden State Warriors.");
+            System.out.println("Upon joining this team, you recieve no playing time and go unoticed");
+            System.out.println("eventually leading to your removal from the league.");
+        }
+        else if (ending > 0) 
+        {
             System.out.println("Your performance in this game has set the tone for the rest of your season.");
             System.out.println("You have been noticed by many recruiters and projected to be a lottery pick in the upcoming draft.");
             System.out.println("It is now draft day and you were the first round pick being drafted to the 76ers.");
             System.out.println("Upon joining this team you have been granted starting position yet again and carried");
             System.out.println("your team to the NBA Championships eventually obtaining your firts ring your rookie year.");
-        ending = UserInput.getInt();
-                           
-        
+        }   
     }
 }
