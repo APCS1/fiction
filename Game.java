@@ -11,25 +11,27 @@ public class Game
         * Again real sorry
         */
         
-        GameBegin GameBeginObject = new GameBegin();
         GameBegin.gameBegin();
         int playIn = 0;
         int ending = 3;
         
         //Start of scene 1
         
-        System.out.println("Congratulations on selecting your University!");
         System.out.println("Upon entering your college you're generously given a starting position.");
         System.out.println("A couple months has passed and you have gotten comfortable of how things operate.");
         System.out.println("It's mid-way through the season and you're playing against a rival college.");
+         System.out.println();
               
         System.out.println("Tip off starts and you receive the ball. What do you do?");
+         System.out.println();
              
         System.out.println("[1] Pass the ball to another teammate");
         System.out.println("[2] Pop the 3 pointer");
         System.out.println("[3] Drive in to the rim");
+         System.out.println();
               
-        playIn = UserInput.getInt();
+        playIn = UserInput.getInt(); 
+        System.out.println();
         switch (playIn) 
         {
           case 1:
@@ -43,16 +45,20 @@ public class Game
             System.out.println("Resulting in a turnover.");
             ending --;
         }
+         System.out.println();
         
         //Start of scene 2
         
         System.out.println("Halfway through the game, the other team is on the fastbreak.");
         System.out.println("You happen to be the only defender in place.");
+         System.out.println();
         
         System.out.println("How do you anticipate the other team?");
+         System.out.println();
         
         System.out.println("[1] Try and predict the pass to get a steal");
         System.out.println("[2] Play it safe and protect the rim");
+         System.out.println();
         
         playIn = UserInput.getInt();
         switch (playIn)
@@ -64,19 +70,23 @@ public class Game
             System.out.println("You attempt to protect the rim but you're overpowered by the other players' talents.");
             ending--;
         }
+         System.out.println();
         
         //Start of scene 3
         
         System.out.println("It's come to the final seconds of your qame.");
         System.out.println("There's 5 seconds on the clock and you have the chance to win it for your team.");
         System.out.println("You have the ball only to be thinking about the game being on the line.");
+         System.out.println();
         
         System.out.println("What are your final choices?");
+         System.out.println();
         
         System.out.println("[1] Shoot the game winner from half court at where you currently stand with the ball.");
         System.out.println("[2] Move up a litte bit and try to shoot deep 3 over defender.");
         System.out.println("[3] Pass the ball to another player to potentially shoot their own game winner.");
         System.out.println("[4] Put on a show with your dribbles and drive to the rim quickly.");
+         System.out.println();
         
         playIn = UserInput.getInt();
         switch (playIn)
@@ -96,6 +106,7 @@ public class Game
              System.out.println("You dribble and actually make your defender slip, but time runs out.");
              ending--;
         }
+         System.out.println();
         
         //Start of ending
         if (ending == 0) 
@@ -113,6 +124,7 @@ public class Game
             System.out.println("It is now draft day and you were the first round pick being drafted to the 76ers.");
             System.out.println("Upon joining this team you have been granted starting position yet again and carried");
             System.out.println("your team to the NBA Championships eventually obtaining your firts ring your rookie year.");
-        }   
+        }
+         System.out.println();
     }
 }
